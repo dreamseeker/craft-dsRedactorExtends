@@ -29,7 +29,7 @@ Please create .json files into `craft/config/redactor` for Redactor config.
 
 **JSON Sample**
 
-```json
+```
 {
   plugins: ['inlinestyle', 'fontcolor'],
   inlinestyleTags: {
