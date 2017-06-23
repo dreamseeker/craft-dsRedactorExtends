@@ -25,6 +25,8 @@ class DsRedactorExtendsPlugin extends BasePlugin
       if (craft()->request->isCpRequest()) {
         craft()->templates->includeJsResource('dsredactorextends/plugins/inlinestyle.js');
         craft()->templates->includeJsResource('dsredactorextends/plugins/fontcolor.js');
+        craft()->templates->includeJsResource('dsredactorextends/plugins/fontsize.js');
+        craft()->templates->includeJsResource('dsredactorextends/plugins/underline.js');
       }
     }
 
@@ -65,7 +67,7 @@ class DsRedactorExtendsPlugin extends BasePlugin
      */
     public function getVersion()
     {
-        return '1.0.0';
+        return '1.0.1';
     }
 
     /**

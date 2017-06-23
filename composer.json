@@ -1,5 +1,5 @@
 {
-	"name": "dreamseeker/dsredactorextends",
+	"name": "dreamseeker/craft-dsRedactorExtends",
 	"description": "This is intended to add Redactor Plugins.",
 	"type": "craft-plugin",
 	"authors": [

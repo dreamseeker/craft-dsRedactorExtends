@@ -22,6 +22,10 @@ dsRedactorExtends adds following Redactor Plugins to RichText Editor.
   https://imperavi.com/redactor/plugins/inlinestyle/
 * Font Color  
   https://imperavi.com/redactor/plugins/font-color/
+* Font Size  
+  https://imperavi.com/redactor/plugins/font-size/
+* Underline   
+  https://imperavi.com/redactor/examples/button-underline/
 
 ## Using dsRedactorExtends
 
@@ -31,7 +35,7 @@ Please create .json files into `craft/config/redactor` for Redactor config.
 
 ```
 {
-  plugins: ['inlinestyle', 'fontcolor'],
+  plugins: ['inlinestyle', 'fontcolor', 'fontsize', 'underline'],
   inlinestyleTags: {
     "style1": {
       title: "InlineStyle01",
@@ -49,13 +53,18 @@ Please create .json files into `craft/config/redactor` for Redactor config.
   ],
   bgcolorLists: [
     '#ffffff', '#000000', '#eeece1', '#1f497d', '#4f81bd', '#c0504d', '#9bbb59', '#8064a2', '#4bacc6', '#f79646', '#ffff00'
-  ]
+  ],
+  fontSize: [10, 12, 14, 16, 18, 20]
 }
 ```
 
-## dsRedactorExtends Roadmap
+## dsRedactorExtends Changelog
 
-Some things to do, and ideas for potential features:
+### 1.0.1 -- 2017.06.24
+
+* [add] two plugins
+  * Font Size
+  * Underline
 
 ### 1.0.0 -- 2017.06.22
 
