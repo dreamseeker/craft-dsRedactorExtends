@@ -37,7 +37,7 @@ Please create .json files into `craft/config/redactor` for Redactor config.
 
 ```
 {
-  plugins: ['inlinestyle', 'fontcolor', 'fontsize', 'underline'],
+  plugins: ['inlinestyle', 'fontcolor', 'fontsize', 'underline', 'clips'],
   inlinestyleTags: {
     "style1": {
       title: "InlineStyle01",
