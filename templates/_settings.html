@@ -1,0 +1,9 @@
+{% import '_includes/forms' as forms %}
+
+{{ forms.textField({
+    label: "CSS File Path"|t,
+    instructions: "Please enter the path to custom CSS file."|t,
+    id: 'cssFilePath',
+    name: 'cssFilePath',
+    value: settings.cssFilePath,
+}) }}

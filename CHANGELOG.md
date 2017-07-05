@@ -1,5 +1,11 @@
 # dsRedactorExtends Changelog
 
+## 1.0.2 -- 2017.07.05
+
+* [add] one plugin
+  * Clips
+* [add] Plugin Setting to apply custom CSS
+
 ## 1.0.1 -- 2017.06.24
 
 * [add] two plugins

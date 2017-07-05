@@ -26,6 +26,8 @@ dsRedactorExtends adds following Redactor Plugins to RichText Editor.
   https://imperavi.com/redactor/plugins/font-size/
 * Underline   
   https://imperavi.com/redactor/examples/button-underline/
+* Clips   
+  https://imperavi.com/redactor/plugins/clips/
 
 ## Using dsRedactorExtends
 
@@ -54,11 +56,36 @@ Please create .json files into `craft/config/redactor` for Redactor config.
   bgcolorLists: [
     '#ffffff', '#000000', '#eeece1', '#1f497d', '#4f81bd', '#c0504d', '#9bbb59', '#8064a2', '#4bacc6', '#f79646', '#ffff00'
   ],
-  fontSize: [10, 12, 14, 16, 18, 20]
+  fontSize: [10, 12, 14, 16, 18, 20],
+  clipsItems: [
+      ['snippet1', '<h1>Heading Text</h1>'],
+      ['snippet2', '<p>Body Text.</p>'],
+  }
 }
 ```
 
+When you apply custom CSS to Redacgtor editing area, please appoint a file path by Plugin setting.
+
+**CSS Sample**
+
+```
+.redactor-layer h1 {
+  color: #c00;
+}
+.redactor-layer p {
+  color: #333;
+}
+```
+
+> [hint]  Redactor editing area is wrapped by `redactor-layer` class.
+
 ## dsRedactorExtends Changelog
+
+## 1.0.2 -- 2017.07.05
+
+* [add] one plugin
+  * Clips
+* [add] Plugin Setting to apply custom CSS
 
 ### 1.0.1 -- 2017.06.24
 
